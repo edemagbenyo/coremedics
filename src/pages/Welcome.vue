@@ -1,6 +1,7 @@
 <template>
   <div>
     <header-component></header-component>
+    <carousel-component></carousel-component>
     <welcome-component></welcome-component>
     <service-component></service-component>
     <clients-component></clients-component>
@@ -11,6 +12,7 @@
 <script>
 import HeaderComponent from '../components/HeaderComponent';
 import FooterComponent from '../components/FooterComponent';
+import CarouselComponent from '../components/CarouselComponent';
 import WelcomeComponent from '../components/WelcomeComponent';
 import ServiceComponent from '../components/ServiceComponent';
 import ClientsComponent from '../components/ClientsComponent';
@@ -23,6 +25,7 @@ export default {
   },
   components:{
     HeaderComponent,
+    CarouselComponent,
     FooterComponent,
     WelcomeComponent,
     ServiceComponent,

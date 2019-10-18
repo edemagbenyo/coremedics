@@ -8,10 +8,10 @@
             </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./img/haem-bg.jpg" class="d-block w-100" alt="...">
+                <img src="../assets/img/haem-bg.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./img/micro-bg.jpg" class="d-block w-100" alt="...">
+              <img src="../assets/img/micro-bg.jpg" class="d-block w-100" alt="...">
             </div>
             
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style>
-
+.carousel-item{
+    height: 500px;
+}
 </style>

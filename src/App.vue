@@ -12,6 +12,7 @@ export default {
 
 <style>
 @import url("./assets/vendor/fontawesome-free/css/all.min.css");
+@import url("./assets/css/landing-page.min.css");
 @import url("./assets/vendor/simple-line-icons/css/simple-line-icons.css");
 
 #app {
