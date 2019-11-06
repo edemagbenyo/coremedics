@@ -1,11 +1,11 @@
 <template>
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
+  <section class="features-icons bg-light text-center py-5">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1>Welcome to CoRemedics</h1>
-          <p class="center">
+          <p class="center core-intro">
             CoRemedics Laboratory is one of the leading pathology laboratories operating in Ghana, providing vital diagnostic and monitoring pathology. 
           </p>
         </div>
@@ -56,6 +56,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
-
+<style>
+p.core-intro{
+  font-size: 1.4rem;
+}
 </style>
