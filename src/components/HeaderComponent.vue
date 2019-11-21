@@ -24,19 +24,19 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <router-link to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Haematology</a>
+            <router-link to="/about">Haematology</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pathology</a>
+            <router-link to="/about">Pathology</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Microbiology</a>
+            <router-link to="/about">Microbiology</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link to="/about">Contact</router-link>
           </li>
         </ul>
         <div class="core-app-btns">
@@ -92,8 +92,9 @@ span.core-toggler {
     font-weight: bold;
     font-size: 1.2rem;
   }
-  .nav-link {
+  .nav-item a  {
     color: white;
+    padding:8px;
   }
   .core-app-btns a.btn {
     border-radius: 0;
