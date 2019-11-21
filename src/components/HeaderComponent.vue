@@ -18,25 +18,25 @@
       <div class="collapse navbar-collapse core-menu" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <router-link class="nav-link" to="/">
               Home
               <span class="sr-only">(current)</span>
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about">About</router-link>
+            <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about">Haematology</router-link>
+            <router-link class="nav-link" to="/services">Haematology</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about">Pathology</router-link>
+            <router-link class="nav-link" to="/services">Pathology</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about">Microbiology</router-link>
+            <router-link class="nav-link" to="/services">Microbiology</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about">Contact</router-link>
+            <router-link class="nav-link" to="/services">Contact</router-link>
           </li>
         </ul>
         <div class="core-app-btns">
@@ -70,11 +70,21 @@ span.core-toggler {
   color: #383838;
   padding: 10px;
   font-weight: bold;
+  transition: all .4s linear;
 }
 .core-app-btns a.btn:hover {
   color: #fff;
   background: #050844;
   border: 3px solid #fff;
+}
+.navbar-nav .nav-item a.router-link-exact-active{
+  color: #AAA;
+}
+a.nav-link{
+  transition: color .3s ease-in;
+}
+.nav-item a.nav-link:hover{
+  color:#AAAAAA
 }
 @media screen and (min-width: 992px) {
   .core-nav {
@@ -136,5 +146,6 @@ span.core-toggler {
     padding: 10px 15px;
     background: #050844;
   }
+  
 }
 </style>
