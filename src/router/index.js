@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Welcome from '@/pages/Welcome'
+import About from '@/pages/About'
 
 Vue.use(Router)
 
@@ -10,6 +11,12 @@ export default new Router({
       path: '/',
       name: 'Welcome',
       component: Welcome
-    }
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+
   ]
 })

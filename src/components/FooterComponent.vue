@@ -46,14 +46,11 @@
           <h3>Socials</h3>
           <ul>
             <li>
-              <a href="#">
-                <img src="" alt="Facebook">
+              <a href="#" class="facebook-lk">
               </a>
-              <a href="#">
-                <img src="" alt="Twitter">
-              </a>
-              <a href="#">
-                <img src="" alt="LinkedIn">
+            </li>
+            <li>
+              <a href="#" class="twitter-lk">
               </a>
             </li>
           </ul> 
@@ -111,5 +108,37 @@ footer{
 }
 .core-copy p{
   color: white;
+}
+.socials ul{
+  display: flex;
+  justify-content: start;
+}
+.socials ul li{
+  margin-right: 5px;
+}
+a.facebook-lk{
+  content: '';
+  width: 45px;
+  height: 45px;
+  display: block;
+  background:
+     url('../assets/img/facebook.png')    /* image */
+     center / 40px 40px /* position / size */
+     no-repeat   
+     white;
+     padding: 5px;
+     border-radius: 5px;           
+}
+a.twitter-lk{
+  content: '';
+  width: 45px;
+  height: 45px;
+  display: block;
+  background:
+     url('../assets/img/twitter.png')    /* image */
+     center / 40px 40px 
+     no-repeat 
+     white ;
+     border-radius: 5px;                 
 }
 </style>
