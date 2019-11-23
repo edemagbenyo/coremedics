@@ -44,15 +44,21 @@
                             We are a team of dedicated health professional. We deliver services to the best of our ability. Our emphasis is on the patient and we strive to provide quick results.
                             Visit our laboratory located at adenta close to the mosque.
                         </p>
-                    <ul>
+                    <ul class="ab-serv">
                         <li>
-                            <img src="../assets/img/blood.svg" alt="blood"> Haematology
+                            <img src="../assets/img/blood.svg" alt="blood"> 
+                            <h2>Haematology</h2>
+                            <p>
+                                
+                            </p>
                         </li>
                         <li>
-                          <img src="" alt=""> <img src="../assets/img/skin.svg" alt="skin"> Pathology
+                          <img src="" alt=""> <img src="../assets/img/skin.svg" alt="skin"> 
+                          <h2>Pathology</h2>
                         </li>
                         <li>
-                           <img src="" alt=""> <img src="../assets/img/microscope.svg" alt="skin">Microbiology
+                           <img src="" alt=""> <img src="../assets/img/microscope.svg" alt="skin">
+                           <h2>Microbiology</h2>
                         </li>
                     </ul>
 
@@ -157,5 +163,13 @@ export default {
     color:#FFFFFF;
     margin: 0;
     text-align: justify;
+}
+.ab-serv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr
+}
+ul.ab-serv li img{
+    width: 20%;
 }
 </style>
